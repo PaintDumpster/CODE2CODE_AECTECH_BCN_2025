@@ -6,3 +6,9 @@
 # folders to ignore
 
 data/
+
+racadvancedsampleproject.ifc
+
+.svenv
+
+node_modules/

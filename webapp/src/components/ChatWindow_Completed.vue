@@ -6,6 +6,13 @@
         style="height: 50px;" />
     </div>
     
+    <!-- Mode Toggle -->
+    <div class="d-flex justify-center align-center mb-2">
+      <v-btn-toggle v-model="mode" mandatory>
+        <v-btn value="openai">OpenAI</v-btn>
+        <v-btn value="backend">Backend NL→Cypher</v-btn>
+      </v-btn-toggle>
+    </div>
 
     <!-- CHAT MESSAGES -->
     <div style="overflow-y: auto; flex-grow: 1;" class="pa-2">
@@ -58,6 +65,7 @@ const store = useStore()
 const inputMessage = ref('')
 const allMessages = ref([])
 var sendLoading = ref(false)
+const mode = ref('openai') // 'openai' or 'backend'
 
 //Create OpenAI Connection
 const openai = new OpenAI({
@@ -66,63 +74,77 @@ const openai = new OpenAI({
 })
 
 async function sendRequest(){
-  sendLoading = true
+  sendLoading.value = true
   
   allMessages.value.push({
     message: inputMessage.value,
     type: 'userMessage'
   })
 
-  const graphjson = store.graphJSON
-  
-  // Check if the message mentions IfcWall
-  if (inputMessage.value.toLowerCase().includes('ifcwall')) {
-    // Find all nodes that are IfcWall type
-    const wallNodes = graphjson.nodes
-      .filter(node => node.IfcType === 'IfcWall')
-      .map(node => node.id)
+  if (mode.value === 'openai') {
+    const graphjson = store.graphJSON
     
-    // Highlight the wall nodes
-    store.highlightNodes(wallNodes)
-  } else {
-    // Clear highlights if no mention of IfcWall
-    store.highlightNodes([])
-  }
-  
-  let compressed = compressGraphData(graphjson)
+    let compressed = compressGraphData(graphjson)
 
-  try {
-    const response = await openai.chat.completions.create({
-      model: 'gpt-4o',
-      messages: [
-        { role: 'system', content: 'You are a graph analyst. Answer questions about a network graph structure that is generated from building IFC data. When you respond please give your answer in html format, but please dont wrap the response in any extra text like ```html.' },
-        {
-          role: 'user',
-          content: `This is the graph structure (nodes and links in JSON format):\n\n${JSON.stringify(compressed)}\n\nPlease answer the following question:\n${inputMessage.value}`
-        }
-      ]
-    })
+    try {
+      const response = await openai.chat.completions.create({
+        model: 'gpt-4o',
+        messages: [
+          { role: 'system', content: 'You are a graph analyst. Answer questions about a network graph structure that is generated from building IFC data. When you respond please give your answer in html format, but please dont wrap the response in any extra text like ```html.' },
+          {
+            role: 'user',
+            content: `This is the graph structure (nodes and links in JSON format):\n\n${JSON.stringify(compressed)}\n\nPlease answer the following question:\n${inputMessage.value}`
+          }
+        ]
+      })
 
-    console.log(response)
+      console.log(response)
 
-    const aiMessage = response?.choices?.[0]?.message?.content
+      const aiMessage = response?.choices?.[0]?.message?.content
 
-    if (!aiMessage) {
-      console.warn('No AI message found in response.')
-    } else {
+      if (!aiMessage) {
+        console.warn('No AI message found in response.')
+      } else {
+        allMessages.value.push({
+          message: aiMessage,
+          type: 'openAIResponse'
+        })
+      }
+    } catch (error) {
       allMessages.value.push({
-        message: aiMessage,
+        message: 'Error: Unable to process your request at the moment.',
         type: 'openAIResponse'
       })
     }
-  } catch (error) {
-    allMessages.value.push({
-      message: 'Error: Unable to process your request at the moment.',
-      type: 'openAIResponse'
-    })
+  } else if (mode.value === 'backend') {
+    // Backend NL-to-Cypher mode
+    try {
+      const response = await fetch('http://localhost:3001/api/nl-query', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: inputMessage.value })
+      })
+      const data = await response.json()
+      if (data.error) {
+        allMessages.value.push({
+          message: `Backend error: ${data.error}`,
+          type: 'backendError'
+        })
+      } else {
+        allMessages.value.push({
+          message: `<b>Cypher:</b> <pre>${data.cypher}</pre><br/><b>Explanation:</b> ${data.explanation}<br/><b>Raw Data:</b> <pre>${JSON.stringify(data.rawData, null, 2)}</pre>`,
+          type: 'backendResponse'
+        })
+      }
+    } catch (error) {
+      allMessages.value.push({
+        message: `Backend error: ${error.message}`,
+        type: 'backendError'
+      })
+    }
   }
   inputMessage.value = ''
-  sendLoading = false
+  sendLoading.value = false
 }
 
 function compressGraphData(original) {
@@ -157,6 +179,20 @@ function compressGraphData(original) {
     nodes: compressedNodes,
     links: compressedLinks
   };
+}
+
+async function sendCypherQuery(cypher) {
+  try {
+    const response = await fetch('http://localhost:3000/api/query', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ cypher })
+    });
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    return { error: error.message };
+  }
 }
 </script>
 
