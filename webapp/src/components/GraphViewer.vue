@@ -4,7 +4,7 @@
 
 <script setup>
 import ForceGraph3D from '3d-force-graph';
-import { onMounted } from 'vue'
+import { onMounted, watch } from 'vue'
 import {convertToGraphFormat} from "@/utils/index"
 import {useStore} from '@/stores/store'
 
@@ -32,6 +32,20 @@ onMounted(async () => {
     .graphData(formattedGraphJson)
     .nodeLabel('nodeLabel')
     .nodeAutoColorBy('IfcType')
+
+  // Watch for highlight changes
+  watch(
+    () => store.highlightedNodeId,
+    (newId) => {
+      if (newId) {
+        Graph.nodeColor(node => node.id === newId ? 'yellow' : undefined)
+        Graph.centerAt(0, 0, 0, 1000)
+        Graph.zoomToFit(400, 50, n => n.id === newId)
+      } else {
+        Graph.nodeColor(undefined) // reset to default
+      }
+    }
+  )
 })
 </script>
 
