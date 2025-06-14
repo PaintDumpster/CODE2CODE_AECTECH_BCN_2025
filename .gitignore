@@ -1,0 +1,8 @@
+# environemnts to ignore
+
+.env/
+.venv/
+
+# folders to ignore
+
+data/
