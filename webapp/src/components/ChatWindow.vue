@@ -66,26 +66,24 @@ const openai = new OpenAI({
 })
 
 async function sendRequest(){
-  //Step 1: Show that the request is being sent
-  sendLoading = true
-  
-  //Step 2: Add user's message to the chat
+  sendLoading.value = true;
+
   allMessages.value.push({
     message: inputMessage.value,
     type: 'userMessage'
-  })
+  });
 
-  //Step 3: Get the graph data and simplify
+  // Example: Use the user's input as a Cypher query directly
+  const cypher = inputMessage.value;
+  const result = await sendCypherQuery(cypher);
 
-  //Step 4: Send the request to Open AI (https://platform.openai.com/docs/api-reference/chat/create)
+  allMessages.value.push({
+    message: JSON.stringify(result, null, 2),
+    type: 'backendResponse'
+  });
 
-  //Step 5: Handle response
-
-  //Step 6: Add response to allMessages
-
-  //Step 7: Reset the input and stop Loading
-  inputMessage.value = ''
-  sendLoading = false
+  inputMessage.value = '';
+  sendLoading.value = false;
 }
 
 function compressGraphData(original) {
