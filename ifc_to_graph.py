@@ -1,7 +1,7 @@
 # IFC to GraphML Converter
 
 # This script converts IFC files to GraphML format, preserving the building element relationships.
-# It will automatically process any .ifc file found in the data folder.
+# It will automatically process any .ifc file found in the data/ifc folder and save graphs to the data/graph folder.
 
 # To run just type "python ifc_to_graph.py" in the terminal
 
@@ -126,37 +126,47 @@ def ifc_to_graphml(ifc_file_path: str, output_path: str):
 def main():
     # Set up argument parser
     parser = argparse.ArgumentParser(description='Convert IFC files to GraphML format')
-    parser.add_argument('--input-dir', '-i', default='data',
-                      help='Directory containing IFC files (default: data)')
-    parser.add_argument('--output-dir', '-o', default='data',
-                      help='Directory for output GraphML files (default: data)')
+    parser.add_argument('--input-dir', '-i', default='data/ifc',
+                      help='Directory containing IFC files (default: data/ifc)')
+    parser.add_argument('--output-dir', '-o', default='data/graph',
+                      help='Directory for output GraphML files (default: data/graph)')
     
     args = parser.parse_args()
     
+    # Normalize paths to use forward slashes
+    input_dir = args.input_dir.replace('\\', '/')
+    output_dir = args.output_dir.replace('\\', '/')
+    
     # Check if input directory exists
-    if not os.path.exists(args.input_dir):
-        print(f"Error: Input directory '{args.input_dir}' does not exist")
+    if not os.path.exists(input_dir):
+        print(f"Error: Input directory '{input_dir}' does not exist")
         return
     
     # Create output directory if it doesn't exist
-    if not os.path.exists(args.output_dir):
-        os.makedirs(args.output_dir)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"Created output directory: {output_dir}")
     
     # Find all .ifc files in the input directory
-    ifc_files = glob.glob(os.path.join(args.input_dir, "*.ifc"))
+    ifc_files = glob.glob(os.path.join(input_dir, "*.ifc"))
     
     if not ifc_files:
-        print(f"No .ifc files found in {args.input_dir}")
+        print(f"No .ifc files found in {input_dir}")
         return
+    
+    print(f"Found {len(ifc_files)} IFC files to process")
     
     # Process each IFC file
     for ifc_path in ifc_files:
         try:
+            # Normalize path to use forward slashes
+            ifc_path = ifc_path.replace('\\', '/')
+            
             # Generate output path by replacing .ifc with .graphml
             output_path = os.path.join(
-                args.output_dir,
+                output_dir,
                 os.path.splitext(os.path.basename(ifc_path))[0] + '.graphml'
-            )
+            ).replace('\\', '/')
             
             print(f"\nProcessing: {ifc_path}")
             ifc_to_graphml(ifc_path, output_path)
