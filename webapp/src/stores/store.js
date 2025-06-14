@@ -3,12 +3,6 @@ import { defineStore } from 'pinia'
 
 export const useStore = defineStore('app', {
   state: () => ({
-    graphJSON: null,
-    highlightedNodes: new Set()
+    graphJSON: null
   }),
-  actions: {
-    highlightNodes(nodeIds) {
-      this.highlightedNodes = new Set(nodeIds)
-    }
-  }
 })

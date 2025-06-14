@@ -75,20 +75,6 @@ async function sendRequest(){
 
   const graphjson = store.graphJSON
   
-  // Check if the message mentions IfcWall
-  if (inputMessage.value.toLowerCase().includes('ifcwall')) {
-    // Find all nodes that are IfcWall type
-    const wallNodes = graphjson.nodes
-      .filter(node => node.IfcType === 'IfcWall')
-      .map(node => node.id)
-    
-    // Highlight the wall nodes
-    store.highlightNodes(wallNodes)
-  } else {
-    // Clear highlights if no mention of IfcWall
-    store.highlightNodes([])
-  }
-  
   let compressed = compressGraphData(graphjson)
 
   try {
