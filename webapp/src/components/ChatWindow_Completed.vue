@@ -135,16 +135,6 @@ async function sendRequest(){
           message: `<b>Cypher:</b> <pre>${data.cypher}</pre><br/><b>Explanation:</b> ${data.explanation}<br/><b>Raw Data:</b> <pre>${JSON.stringify(data.rawData, null, 2)}</pre>`,
           type: 'backendResponse'
         })
-        // Try to highlight the first node in the rawData if present
-        if (Array.isArray(data.rawData) && data.rawData.length > 0) {
-          const first = data.rawData[0]
-          // Try to find a property that looks like an ID
-          let nodeId = null
-          if (first.id) nodeId = first.id
-          else if (first.n && first.n.id) nodeId = first.n.id
-          else if (first.n && first.n.GlobalId) nodeId = first.n.GlobalId
-          if (nodeId) store.highlightedNodeId = nodeId
-        }
       }
     } catch (error) {
       allMessages.value.push({
