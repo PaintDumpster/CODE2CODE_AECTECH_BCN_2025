@@ -1,7 +1,8 @@
 
-## How ot run
+## How to run
 
 #### 1. Clone the Repo
+
 #### 2. Add your own OpenAI API key
 ```
 ⚠️ You’ll need an OpenAI account to get your key in webapp/backend/.env and webapp/.env
@@ -16,7 +17,7 @@ node server.js
 
 #### 4. Run the App
 ``` bash
-cd webapp/backend
+cd webapp
 npm install
 npm run dev
 ```
