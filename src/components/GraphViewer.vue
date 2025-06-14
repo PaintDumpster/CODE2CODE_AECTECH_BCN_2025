@@ -4,16 +4,13 @@
 
 <script setup>
 import ForceGraph3D from '3d-force-graph';
-import { onMounted, watch } from 'vue'
+import { onMounted } from 'vue'
 import {convertToGraphFormat} from "@/utils/index"
 import {useStore} from '@/stores/store'
-import { storeToRefs } from 'pinia'
-
-const store = useStore()
-const { highlightedNodes } = storeToRefs(store)
-let Graph = null
 
 onMounted(async () => {
+  const store = useStore()
+  
   //Step 1: Get the nodes and edges
   const [nodesRes, edgesRes] = await Promise.all([
       fetch('/nodes.json'),
@@ -31,18 +28,10 @@ onMounted(async () => {
   let graphDiv = document.getElementById('3d-graph')
 
   //Step 4: Create the ForceGraph3D (https://github.com/vasturiano/3d-force-graph)
-  Graph = new ForceGraph3D(graphDiv)
+  const Graph = new ForceGraph3D(graphDiv)
     .graphData(formattedGraphJson)
     .nodeLabel('nodeLabel')
     .nodeAutoColorBy('IfcType')
-    .nodeColor(node => highlightedNodes.value.has(node.id) ? 'red' : null)
-})
-
-// Watch for changes in highlightedNodes and update the graph
-watch(highlightedNodes, () => {
-  if (Graph) {
-    Graph.nodeColor(node => highlightedNodes.value.has(node.id) ? 'red' : null)
-  }
 })
 </script>
 
