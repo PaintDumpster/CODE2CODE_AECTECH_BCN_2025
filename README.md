@@ -9,3 +9,9 @@ We used langchain to create a graphRAG that allows the LLM to be aware of the gr
 
 ## HOW TO USE THIS REPO
 
+1. check the branches. everything is currently in development, hehe.
+2. download the repo and input the .cypher files into a neo4j aura database instance.
+3. input yourOpenAI api key into the vue llm file.
+4. start the vue server
+5. connect your langchain instance to the database and to the llm.
+6. Enjoy the bursting feeling of querying through a documentation and seeing reflected in your ifc model (if you dont mind an endless amount of bugs <3).
