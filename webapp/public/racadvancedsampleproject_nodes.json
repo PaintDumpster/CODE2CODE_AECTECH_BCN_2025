@@ -1,0 +1,1019 @@
+{
+  "1GE3M13VHAWxhxwcp39Emh": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Emh",
+    "Name": "101",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-2535.2494393429724,13107.522173485546,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiJ": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiJ",
+    "Name": "102",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "3685.375129248841,1284.4317306948162,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eiz": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eiz",
+    "Name": "103",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "51614.818928802095,-18056.244714850458,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Ei_": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Ei_",
+    "Name": "104",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "44716.0505584046,-19125.41138151707,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Ei$": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Ei$",
+    "Name": "105",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "35716.050558404604,-19125.411381517042,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eiu": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eiu",
+    "Name": "106",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "26716.0505584046,-19125.411381517013,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eiw": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eiw",
+    "Name": "107",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "24819.745620939742,-15243.02683594463,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eiv": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eiv",
+    "Name": "108",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "14246.586451737932,-18906.1113805471,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eix": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eix",
+    "Name": "109",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "11697.78641953896,-20540.91852395841,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eib": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eib",
+    "Name": "110",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "8584.501072374873,-19703.261381517033,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eic": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eic",
+    "Name": "111",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "3467.1506885864783,-17887.723881517024,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eid": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eid",
+    "Name": "112",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "5870.726947687728,-15940.261381517043,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiX": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiX",
+    "Name": "114",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-65.79943934298824,-19595.786381517013,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiY": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiY",
+    "Name": "115",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-3907.2280107715505,-15537.610021976578,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiZ": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiZ",
+    "Name": "116",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5648.2994393429635,-5739.511380062153,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eij": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eij",
+    "Name": "117",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5348.019665856673,283.57195327117904,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eik": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eik",
+    "Name": "118",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-3781.0047791135253,4657.463619937838,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eil": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eil",
+    "Name": "119",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-8431.924439342929,4157.463619937854,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eii": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eii",
+    "Name": "120",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "9698.23406306143,-3686.660987887929,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiI": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiI",
+    "Name": "121",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-70.65312244706806,24833.631665282675,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiH": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiH",
+    "Name": "122",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "10202.600558404763,27579.540756191745,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiM": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiM",
+    "Name": "123",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "15555.35055840476,26122.326470477445,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiG": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiG",
+    "Name": "124",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "9820.450558404757,23215.49075619173,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiN": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiN",
+    "Name": "125",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "13552.600558404758,23431.79075619172,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiK": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiK",
+    "Name": "126",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "19994.750558404765,24979.390756191697,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39EiL": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39EiL",
+    "Name": "127",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "21298.820298904917,28967.59075619172,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eih": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eih",
+    "Name": "128",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "23034.080169154986,25934.440756191674,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eig": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eig",
+    "Name": "129",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "22540.750234029947,23431.790756191687,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eif": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eif",
+    "Name": "130",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "25448.899909655138,26719.499089525038,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eie": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eie",
+    "Name": "131",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "18634.793657517614,22023.040756191705,0.0",
+    "category": "IfcSpace"
+  },
+  "1GE3M13VHAWxhxwcp39Eiy": {
+    "GlobalId": "1GE3M13VHAWxhxwcp39Eiy",
+    "Name": "132",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "55049.57811400085,-19595.7863815171,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQgewm": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQgewm",
+    "Name": "201",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "54785.57811400085,-20354.86138151708,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQgewe": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQgewe",
+    "Name": "202",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "52281.48559546876,-18055.411381517126,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQgewc": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQgewc",
+    "Name": "203",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "46750.6755584046,-19051.43638078966,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQgewa": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQgewa",
+    "Name": "204",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "44737.22638697603,-19019.73280904934,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQgexV": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQgexV",
+    "Name": "205",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "37716.050558404604,-19125.41138151705,0.0",
+    "category": "IfcSpace"
+  },
+  "1DRIgGmAHBt9Ugpf6z41Pv": {
+    "GlobalId": "1DRIgGmAHBt9Ugpf6z41Pv",
+    "Name": "206",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "33716.050558404604,-19125.41138151703,0.0",
+    "category": "IfcSpace"
+  },
+  "1DRIgGmAHBt9Ugpf6z41Pu": {
+    "GlobalId": "1DRIgGmAHBt9Ugpf6z41Pu",
+    "Name": "207",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "29716.050558404608,-19125.41138151702,0.0",
+    "category": "IfcSpace"
+  },
+  "1DRIgGmAHBt9Ugpf6z41P$": {
+    "GlobalId": "1DRIgGmAHBt9Ugpf6z41P$",
+    "Name": "208",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "24716.0505584046,-19125.411381517006,0.0",
+    "category": "IfcSpace"
+  },
+  "1DRIgGmAHBt9Ugpf6z41P_": {
+    "GlobalId": "1DRIgGmAHBt9Ugpf6z41P_",
+    "Name": "209",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "13979.919785071268,-18906.1113805471,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQgexJ": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQgexJ",
+    "Name": "210",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "11697.78641953896,-20540.91852395841,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge4d": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge4d",
+    "Name": "211",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "8584.501072374873,-19703.261381517033,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge4b": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge4b",
+    "Name": "212",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "3467.1506885864787,-17887.723881517024,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge4Z": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge4Z",
+    "Name": "214",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "5549.3508165159465,-16157.91138151704,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge4X": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge4X",
+    "Name": "216",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "4349.532656292886,-1048.7938931252413,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge5V": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge5V",
+    "Name": "217",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-65.79943934298811,-19598.286381517013,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge5G": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge5G",
+    "Name": "218",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-3903.3708679143924,-16677.404238244195,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge5E": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge5E",
+    "Name": "219",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-7572.699439342935,108.18861993785889,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge5C": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge5C",
+    "Name": "220",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-4266.549439342948,3879.7386199378598,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge5A": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge5A",
+    "Name": "221",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5916.549439342938,7523.588619937866,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge5y": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge5y",
+    "Name": "222",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5751.127160263168,14658.866593035937,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge5w": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge5w",
+    "Name": "223",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-2529.2702874220718,22613.509005199387,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge5X": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge5X",
+    "Name": "224",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "4853.559976385741,27127.927119828095,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge6V": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge6V",
+    "Name": "225",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "6551.740866786827,25522.14075619172,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge6T": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge6T",
+    "Name": "226",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "10152.600558404763,25522.140756191708,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge6R": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge6R",
+    "Name": "227",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "8356.567396394794,23851.874089525056,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge6P": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge6P",
+    "Name": "228",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "9872.600558404767,28349.140756191726,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge6N": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge6N",
+    "Name": "229",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "13649.09671225087,24417.52267369111,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge6L": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge6L",
+    "Name": "230",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "18562.600558404763,27579.540756191735,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge66": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge66",
+    "Name": "231",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "22297.16690069662,26612.207422858377,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge64": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge64",
+    "Name": "232",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "22540.750234029947,23431.790756191687,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge62": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge62",
+    "Name": "233",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "25624.899909655134,26519.59075619171,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQge60": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQge60",
+    "Name": "234",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "12610.499773845058,22125.509409298393,0.0",
+    "category": "IfcSpace"
+  },
+  "2dcjqNU0z9dgXZ44gQgexL": {
+    "GlobalId": "2dcjqNU0z9dgXZ44gQgexL",
+    "Name": "235",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "26991.23142764639,-15219.694698075678,0.0",
+    "category": "IfcSpace"
+  },
+  "3Yc17Oys91HBxqG5CiJ1_p": {
+    "GlobalId": "3Yc17Oys91HBxqG5CiJ1_p",
+    "Name": "301",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "54785.57811400085,-20350.861381517083,0.0",
+    "category": "IfcSpace"
+  },
+  "3Yc17Oys91HBxqG5CiJ1_r": {
+    "GlobalId": "3Yc17Oys91HBxqG5CiJ1_r",
+    "Name": "302",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "50281.48559546877,-18055.41138151712,0.0",
+    "category": "IfcSpace"
+  },
+  "3Yc17Oys91HBxqG5CiJ1_h": {
+    "GlobalId": "3Yc17Oys91HBxqG5CiJ1_h",
+    "Name": "303",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "39716.050558404604,-19125.411381517053,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pR": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pR",
+    "Name": "304",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "32716.0505584046,-19125.411381517028,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pF": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pF",
+    "Name": "305",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "25716.050558404597,-19125.41138151701,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pD": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pD",
+    "Name": "306",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "13979.919785071268,-18906.1113805471,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pp": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pp",
+    "Name": "307",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "11697.78641953896,-20540.91852395841,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pn": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pn",
+    "Name": "308",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "8584.501072374873,-19703.261381517033,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pt": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pt",
+    "Name": "309",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "3467.1506885864787,-17886.473881517024,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pr": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pr",
+    "Name": "310",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "5873.38086768773,-15940.261381517043,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pZ": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pZ",
+    "Name": "312",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-65.7994393429879,-19593.286381517013,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pa": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pa",
+    "Name": "313",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-3903.370867914393,-17247.40423824419,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pg": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pg",
+    "Name": "314",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5641.549439342938,-8739.511380062153,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pe": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pe",
+    "Name": "315",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5956.549439342933,-111.81138006215228,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pk": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pk",
+    "Name": "316",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-8491.54943934293,3829.7386199378557,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1pi": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1pi",
+    "Name": "317",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-4366.549439342948,3829.738619937843,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1mL": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1mL",
+    "Name": "318",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "4114.9328857462015,2609.6744440159177,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1mR": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1mR",
+    "Name": "319",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5956.549439342938,7583.588619937848,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1mP": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1mP",
+    "Name": "320",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5641.549439342931,14245.388912918299,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1mV": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1mV",
+    "Name": "321",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "-5839.86943979339,23050.29044613317,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1mT": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1mT",
+    "Name": "322",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "6188.357848110507,26492.68361333459,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1m3": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1m3",
+    "Name": "323",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "8136.740866786825,23210.340756191737,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1m1": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1m1",
+    "Name": "324",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "12246.450558404766,26044.09075619175,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1mC": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1mC",
+    "Name": "325",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "21008.157423226345,25663.540756191713,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1mo": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1mo",
+    "Name": "326",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "22540.750234029947,23431.790756191687,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1mm": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1mm",
+    "Name": "327",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "25624.899909655134,26523.59075619171,0.0",
+    "category": "IfcSpace"
+  },
+  "1wJoqPkIP4J8fINgm5A1ms": {
+    "GlobalId": "1wJoqPkIP4J8fINgm5A1ms",
+    "Name": "328",
+    "Description": "None",
+    "ObjectType": "None",
+    "IfcType": "IfcSpace",
+    "Centroid": "19628.20029799044,21939.995301646242,0.0",
+    "category": "IfcSpace"
+  },
+  "3a58fQxqD2numVo$eTOgS$": {
+    "GlobalId": "3a58fQxqD2numVo$eTOgS$",
+    "Name": "Floor:Concrete- 100mm:212675",
+    "Description": "None",
+    "ObjectType": "Floor:Concrete- 100mm",
+    "IfcType": "IfcSlab",
+    "Centroid": "17215.21182235468,1202.8391725916204,0.0",
+    "category": "IfcSlab"
+  },
+  "2Tt7$hRrHBKvoaUIFPAz_N": {
+    "GlobalId": "2Tt7$hRrHBKvoaUIFPAz_N",
+    "Name": "Basic Wall:Exterior - Insulation on Masonry:144837",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Exterior - Insulation on Masonry",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "3n9ek_acHEfRCBQHch6_cD": {
+    "GlobalId": "3n9ek_acHEfRCBQHch6_cD",
+    "Name": "Basic Wall:Exterior - Insulation on Masonry:169770",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Exterior - Insulation on Masonry",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPujdx": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPujdx",
+    "Name": "Basic Wall:Generic - 225mm Concrete:155851",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Generic - 225mm Concrete",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPujXf": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPujXf",
+    "Name": "Basic Wall:Generic - 225mm Concrete:155993",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Generic - 225mm Concrete",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "1fIVuvFffDJRV_SJESOtCZ": {
+    "GlobalId": "1fIVuvFffDJRV_SJESOtCZ",
+    "Name": "Floor:Hollow Core Plank - Concrete Topping:139803",
+    "Description": "None",
+    "ObjectType": "Floor:Hollow Core Plank - Concrete Topping",
+    "IfcType": "IfcSlab",
+    "Centroid": "33033.43877667189,26831.35106885439,265.0",
+    "category": "IfcSlab"
+  },
+  "1fIVuvFffDJRV_SJESOtDs": {
+    "GlobalId": "1fIVuvFffDJRV_SJESOtDs",
+    "Name": "Basic Wall:Exterior - Insulation on Masonry:139854",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Exterior - Insulation on Masonry",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPukl$": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPukl$",
+    "Name": "Basic Wall:Interior - 138mm Partition (1-hr):152271",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Interior - 138mm Partition (1-hr)",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPukm2": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPukm2",
+    "Name": "Basic Wall:Interior - 138mm Partition (1-hr):152882",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Interior - 138mm Partition (1-hr)",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPukoO": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPukoO",
+    "Name": "Basic Wall:Interior - 138mm Partition (1-hr):153000",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Interior - 138mm Partition (1-hr)",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPukeh": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPukeh",
+    "Name": "Basic Wall:Interior - 138mm Partition (1-hr):152347",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Interior - 138mm Partition (1-hr)",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPukiV": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPukiV",
+    "Name": "Basic Wall:Interior - 138mm Partition (1-hr):152111",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Interior - 138mm Partition (1-hr)",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPulJq": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPulJq",
+    "Name": "Basic Wall:Exterior - Insulation on Masonry:150980",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Exterior - Insulation on Masonry",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPuk_g": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPuk_g",
+    "Name": "Basic Wall:Interior - 138mm Partition (1-hr):153242",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Interior - 138mm Partition (1-hr)",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPukzw": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPukzw",
+    "Name": "Basic Wall:Interior - 138mm Partition (1-hr):153162",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Interior - 138mm Partition (1-hr)",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPukZL": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPukZL",
+    "Name": "Basic Wall:Interior - 138mm Partition (1-hr):152037",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Interior - 138mm Partition (1-hr)",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPulmH": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPulmH",
+    "Name": "Basic Wall:Exterior - Insulation on Masonry:148769",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Exterior - Insulation on Masonry",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "1fIVuvFffDJRV_SJESOtDf": {
+    "GlobalId": "1fIVuvFffDJRV_SJESOtDf",
+    "Name": "Basic Wall:Exterior - Insulation on Masonry:139857",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Exterior - Insulation on Masonry",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UbFLyEvP7xerhn6sJH67p": {
+    "GlobalId": "2UbFLyEvP7xerhn6sJH67p",
+    "Name": "Basic Wall:Exterior - Insulation on Masonry:182328",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Exterior - Insulation on Masonry",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPuk8B": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPuk8B",
+    "Name": "Basic Wall:Exterior - Insulation on Masonry:154427",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Exterior - Insulation on Masonry",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "2UMN_OQKrAshZl3dHPuji$": {
+    "GlobalId": "2UMN_OQKrAshZl3dHPuji$",
+    "Name": "Basic Wall:Generic - 225mm Concrete:156175",
+    "Description": "None",
+    "ObjectType": "Basic Wall:Generic - 225mm Concrete",
+    "IfcType": "IfcWallStandardCase",
+    "Centroid": "0.0,0.0,0.0",
+    "category": "IfcWallStandardCase"
+  },
+  "1fIVuvFffDJRV_SJESOtCD": {
+    "GlobalId": "1fIVuvFffDJRV_SJESOtCD",
+    "Name": "Floor:Hollow Core Plank - Concrete Topping:139829",
+    "Description": "None",
+    "ObjectType": "Floor:Hollow Core Plank - Concrete Topping",
+    "IfcType": "IfcSlab",
+    "Centroid": "33033.43877667189,26831.35106885439,265.0",
+    "category": "IfcSlab"
+  }
+}
