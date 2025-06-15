@@ -11,6 +11,7 @@ declare module 'vue' {
     ChatWindow: typeof import('./src/components/ChatWindow.vue')['default']
     ChatWindow_Completed: typeof import('./src/components/ChatWindow_Completed.vue')['default']
     GraphViewer: typeof import('./src/components/GraphViewer.vue')['default']
+    IFCViewer: typeof import('./src/components/IFCViewer.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

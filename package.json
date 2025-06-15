@@ -1,7 +1,11 @@
 {
   "dependencies": {
+    "@thatopen/components": "^2.4.11",
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "neo4j-driver": "^5.28.1"
-  }
+    "neo4j-driver": "^5.28.1",
+    "three": "^0.175.0",
+    "web-ifc": "^0.0.68"
+  },
+  "packageManager": "yarn@4.9.2"
 }
