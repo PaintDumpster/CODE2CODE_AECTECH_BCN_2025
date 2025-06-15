@@ -26,15 +26,28 @@ onMounted(() => {
   world.camera = new OBC.SimpleCamera(components)
   components.init()
 
+  // Configure the renderer first
+  world.renderer.three.outputColorSpace = THREE.SRGBColorSpace
+  world.renderer.three.toneMapping = THREE.ACESFilmicToneMapping
+  world.renderer.three.toneMappingExposure = 1
+
   // Set background color to white and add grid
   world.scene.three.background = new THREE.Color(0xffffff)
   const gridHelper = new THREE.GridHelper(1000, 100, 0x888888, 0xcccccc)
   world.scene.three.add(gridHelper)
 
+  // Add ambient light with reduced intensity
+  const ambientLight = new THREE.AmbientLight(0xffffff, 0.5)
+  world.scene.three.add(ambientLight)
+
+  // Add directional light with adjusted position and intensity
+  const directionalLight = new THREE.DirectionalLight(0xffffff, 0.5)
+  directionalLight.position.set(1, 1, 1)
+  world.scene.three.add(directionalLight)
+
   // Get the IFC loader
   fragmentIfcLoader = components.get(OBC.IfcLoader)
   fragmentIfcLoader.settings.webIfc.COORDINATE_TO_ORIGIN = true
-  fragmentIfcLoader.settings.webIfc.wasm = '/web-ifc.wasm'
 
   // Handle window resize
   const handleResize = () => {
@@ -54,7 +67,25 @@ watch(() => props.ifcFile, async (newFile) => {
     const buffer = await newFile.arrayBuffer()
     const model = await fragmentIfcLoader.load(new Uint8Array(buffer))
     model.name = newFile.name
+
+    model.traverse((child) => {
+      if (child.isMesh) {
+        child.material = new THREE.MeshStandardMaterial({
+          color: 0xcccccc,
+          emissive: 0x444444,
+          side: THREE.DoubleSide,
+          flatShading: false,
+          transparent: true,
+          opacity: 0.8
+        });
+      }
+    });
+
     world.scene.three.add(model)
+
+    // Position camera to look at the model
+    world.camera.controls.setPosition(10, 10, 10)
+    world.camera.controls.setTarget(0, 0, 0)
   }
 })
 
