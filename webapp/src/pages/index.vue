@@ -10,8 +10,8 @@
       <!-- View Switcher -->
       <v-btn-toggle v-model="viewMode" mandatory>
         <v-btn value="graph">Graph View</v-btn>
+        <v-btn value="overlap">Split View</v-btn>
         <v-btn value="model">3D Model View</v-btn>
-        <v-btn value="overlap">Overlap View</v-btn>
       </v-btn-toggle>
     </div>
 
